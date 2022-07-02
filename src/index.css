@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+* {
+  box-sizing: border-box;
+  /* font-family: 'Dancing Script', cursive;
+   */
+   font-family: 'Secular One', sans-serif;
+ 
+   
+}
+
+html,
+body {
+  height: 100%;
+}
+.full-box {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.items {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border: 5px solid #FFFF00;
+  padding: 10px;
+
+}
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
