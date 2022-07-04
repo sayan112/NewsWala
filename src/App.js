@@ -1,5 +1,6 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
+import { Footer } from "./Components/Footer/Footer.js";
 
 import Navbar from "./Components/Navbar/navbarnewsFy.js";
 import Newscontent from "./Components/Newscontetnt/Newscontent.js";
@@ -25,11 +26,13 @@ function App() {
 
   useEffect(() => {
     newsApi();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [category,newsResults]);
   return (
     <>
       <Navbar setCategory={setCategory} />
-      <Newscontent />
+      <Newscontent newsArray={newsArray} newsResults={newsResults} />
+      <Footer />
     </>
   );
 }
@@ -45,4 +48,4 @@ export default App;
 
 // https://saurav.tech/NewsAPI/top-headlines/category/health>/in.json"
 
-//   https://saurav.tech/NewsAPI/top-headlines/category/health/in.json
+//   https://saurav.tech/NewsAPI/top-headlines/category/health/in.json 

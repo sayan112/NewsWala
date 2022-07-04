@@ -1,11 +1,39 @@
 import { Container } from '@mui/system'
 import React from 'react'
-
-const Newscontent = () => {
+import { NewsCard } from '../NewsCard/NewsCard';
+import playstore from "./Images/applestore.png";
+import applestore from "./Images/playstore.png";
+import "./Newscontent.css";
+const Newscontent = ({newsArray,newsResults}) => {
   return (
+    <Container maxWidth="md">
+      <div className="content">
+        <div className="downloadMessage">
+          <span className="downloadTxt">
+            For the better experience use our App on your phone 📱
+          </span>
+          <input
+            type="image"
+            img
+            alt="app photo"
+            height="80%"
+            src={playstore}
+          />
+          <input
+            type="image"
+            img
+            alt="app photo"
+            height="80%"
+            src={applestore}
+          />
+        </div>
 
-    <Container maxWidth="md">Newscontent</Container>
-  )
+        {newsArray.map((newsItem) => (
+          <NewsCard newsItem={newsItem} key={newsItem.title} />
+        ))}
+      </div>
+    </Container>
+  );
 }
 
 export default Newscontent
