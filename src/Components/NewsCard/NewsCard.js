@@ -24,7 +24,7 @@ export const NewsCard = ({newsItem}) => {
           <span className="title">{newsItem.title}</span>
           <br />
           <span className="author">
-            <a href={newsItem.url} target="">
+            <a href={newsItem.url} target="jbiuboib">
               <b style={{ color: "red" }}>short</b>
             </a>{" "}
             <span className="muted">
@@ -42,7 +42,7 @@ export const NewsCard = ({newsItem}) => {
           <div className="description">{newsItem.description}</div>
           <span className="readmore">
             readmore at{" "}
-            <a href={newsItem.url} target="" className="source">
+            <a href={newsItem.url} target="jbkibjb" className="source">
               <b style={{ color: "red" }}>{newsItem.source.name}</b>
             </a>
           </span>

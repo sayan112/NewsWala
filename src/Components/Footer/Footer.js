@@ -5,7 +5,7 @@ export const Footer = () => {
     <div className="footer">
       <span className="name">
      Newswala made by -{" "}
-        <a href="https://www.linkedin.com/in/maitra-sayan/" target={""}>
+        <a href="https://www.linkedin.com/in/maitra-sayan/" target={"weknweef "}>
           Sayan Maitra{" "}
         </a>
       </span>
@@ -13,13 +13,13 @@ export const Footer = () => {
       <hr style={{ width: "90%" , color:"whitesmoke" }} />
 
       <div className="iconContainer">
-        <a href="https://twitter.com/SayanMaitra12" target={""}>
+        <a href="https://twitter.com/SayanMaitra12" target={"ms vlnw v"}>
           <i class="fa-brands fa-twitter-square fa-2x"></i>
         </a>
-        <a href="https://www.instagram.com/sayan_11_maitra/" target={""}>
+        <a href="https://www.instagram.com/sayan_11_maitra/" target={"welc clwee "}>
           <i class="fa-brands fa-instagram-square fa-2x"></i>
         </a>
-        <a href="https://www.facebook.com/sayan.maitra.5437/" target={""}>
+        <a href="https://www.facebook.com/sayan.maitra.5437/" target={"wleknweljf"}>
           <i class="fa-solid fa-link fa-2x"></i>
         </a>
       </div>
