@@ -4,7 +4,7 @@ export const Footer = () => {
   return (
     <div className="footer">
       <span className="name">
-     NewsiFy made by -{" "}
+     Newswala made by -{" "}
         <a href="https://www.linkedin.com/in/maitra-sayan/" target={""}>
           Sayan Maitra{" "}
         </a>

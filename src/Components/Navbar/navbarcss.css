@@ -16,3 +16,37 @@
 .menu-icon {
     transform: scale(1.8);
 }
+
+.imgnav {
+    margin-right: 30px;
+}
+
+
+h1.sixth {
+    position: relative;
+}
+
+h1.sixth:before,
+h1.sixth:after {
+    content: '[';
+    display: inline-block;
+    position: relative;
+    top: 1px;
+    height: 100%;
+    font-size: 1.25em;
+    color: tomato;
+
+    transition: all 0.5s ease;
+}
+
+h1.sixth:after {
+    content: ']';
+}
+
+h1.sixth:hover:before {
+    transform: translateX(-5px);
+}
+
+h1.sixth:hover:after {
+    transform: translateX(5px);
+}

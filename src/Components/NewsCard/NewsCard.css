@@ -10,7 +10,8 @@
     padding: 10px;
     margin-bottom: 10px;
     border-radius: 5px;
-    border: 2px solid red;
+
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
 .newsText {
     padding: 0 0 0 10px ;
@@ -41,4 +42,24 @@
     object-fit: cover;
     width: 320px;
     height: 268px;
+}
+.title {
+    font-size: 22px;
+    line-height: 27px;
+
+}
+
+.description {
+    font-size: 16px;
+    line-height: 22px;
+    color: #44444d;
+}
+.loadMore {
+    cursor: pointer;
+    background-color: white;
+    border: none;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    padding: 7px 25px;
+    font-size: 13px;
+    /* margin-top: -20px; */
 }

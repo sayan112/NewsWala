@@ -2,12 +2,14 @@ import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { Footer } from "./Components/Footer/Footer.js";
 
-import Navbar from "./Components/Navbar/navbarnewsFy.js";
+import Navbar from "./Components/Navbar/navbarnews.js";
 import Newscontent from "./Components/Newscontetnt/Newscontent.js";
 function App() {
   const [category, setCategory] = useState("general");
   const [newsArray, setNewsArray] = useState([]);
  const [newsResults, setNewsResults] = useState();
+  const [loadMore, setLoadMore] = useState(20);
+
 
   const newsApi = async () => {
     try {
@@ -27,11 +29,18 @@ function App() {
   useEffect(() => {
     newsApi();
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [category,newsResults]);
+  }, [category,newsResults,loadMore]);
   return (
     <>
       <Navbar setCategory={setCategory} />
-      <Newscontent newsArray={newsArray} newsResults={newsResults} />
+      {newsResults && (
+        <Newscontent
+          newsArray={newsArray}
+          newsResults={newsResults}
+          loadMore={loadMore}
+          setLoadMore={setLoadMore}
+        />
+      )}
       <Footer />
     </>
   );
