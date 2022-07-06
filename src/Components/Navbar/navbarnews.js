@@ -11,7 +11,7 @@ const navbarnews = ({ setCategory }) => {
         <Drawer setCategory={setCategory} />
       </div>
       <img className='imgnav' src={img} style={{ cursor: "pointer" }} height="100%" alt='logo' />
-      <h1 className='sixth'> Newswala.com</h1>
+      <h1 className='sixth'>Newswala.com</h1>
     </div>
   );
 };

@@ -22,6 +22,7 @@ export default function SwipeableTemporaryDrawer({ setCategory }) {
     right: false,
   });
 
+
   //dark mode -code
 
   const darkTheme = createTheme({
@@ -51,12 +52,12 @@ export default function SwipeableTemporaryDrawer({ setCategory }) {
       onKeyDown={toggleDrawer(anchor, false)}
     >
       <List>
-        <ListItem>Catagories</ListItem>
+        <ListItem style={{marginRight:10}} >Catagories</ListItem>
       </List>
       <Divider />
       <List>
         {category.map((text, index) => (
-          <ListItem button onClick={() => setCategory(text)} key={text}>
+          <ListItem style={{padding:30}} button onClick={() => setCategory(text)} key={text}>
             <ListItemText primary={text} />
           </ListItem>
         ))}

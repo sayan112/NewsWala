@@ -24,3 +24,10 @@ a {
     padding: 20px 0;
     
 }
+.hoverme:hover {
+    color:rgb(246, 153, 153) ;
+        -webkit-transition: color 0.3s ease-in-out;
+        -moz-transition: color 0.3s ease-in-out;
+        transition: color 0.3s ease-in-out;
+
+}

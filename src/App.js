@@ -13,6 +13,7 @@ function App() {
 
 
   const newsApi = async () => {
+    //const proxyUrl = "https://cors-anywhere.herokuapp.com/";
     try {
       const news = await axios.get(
         // `https://saurav.tech/NewsAPI/top-headlines/category/${category}/in.json`
