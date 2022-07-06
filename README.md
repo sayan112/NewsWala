@@ -19,8 +19,8 @@ deeply sorry for the inconvenience 😢
 
 Insert gif or link to demo
 
-
+https://github.com/sayan112/NewsWala/blob/main/newswala_qmFLwSVb.mp4
 ## Screenshots
 
-![App Screenshot](https://github.com/sayan112/NewsiFy/blob/main/public/rsz_2liveimage1.png)
-
+![App Screenshot](https://github.com/sayan112/NewsWala/blob/main/public/NewswalaImage1.png)
+![App Screenshot](https://github.com/sayan112/NewsWala/blob/main/public/NewswalaImage2.png)
