@@ -17,10 +17,11 @@ For some reason, News API only works on mozilla browsers in free plan other than
 deeply sorry for the inconvenience 😢
 ## Demo
 
-Insert gif or link to demo
+link to demo 👁️
+https://github.com/sayan112/NewsWala/blob/main/public/Newswalagif.gif
 
-https://github.com/sayan112/NewsWala/blob/main/newswala_qmFLwSVb.mp4
 ## Screenshots
 
 ![App Screenshot](https://github.com/sayan112/NewsWala/blob/main/public/NewswalaImage1.png)
 ![App Screenshot](https://github.com/sayan112/NewsWala/blob/main/public/NewswalaImage2.png)
+![App Screenshot](https://github.com/sayan112/NewsWala/blob/main/public/NewswalaImage3.png)
