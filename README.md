@@ -15,13 +15,54 @@ We understand you don’t have time ⏰ to go through long news articles everyda
 ## Important Note 
 For some reason, News API only works on mozilla browsers in free plan other than that - News api doesn't allow you to fetch the api from a deployed site. You can fork this repo and run in your local server and add your apikey in config.js file in the root.
 deeply sorry for the inconvenience 😢
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://link-to-project
+```
+
+Go to the project directory
+
+```bash
+  cd my-project
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run start
+```
+
+
 ## Demo
 
 link to demo 👁️
 https://github.com/sayan112/NewsWala/blob/main/public/Newswalagif.gif
+
+Live link 
+https://news-wala.netlify.app/
+
 
 ## Screenshots
 
 ![App Screenshot](https://github.com/sayan112/NewsWala/blob/main/public/NewswalaImage1.png)
 ![App Screenshot](https://github.com/sayan112/NewsWala/blob/main/public/NewswalaImage2.png)
 ![App Screenshot](https://github.com/sayan112/NewsWala/blob/main/public/NewswalaImage3.png)
+## Authors
+
+- [@sayanmaitra](https://github.com/sayan112)
+- [@roadsidecoder](https://github.com/piyush-eon)
+
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
