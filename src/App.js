@@ -4,7 +4,7 @@ import { Footer } from "./Components/Footer/Footer.js";
 
 import Navbar from "./Components/Navbar/navbarnews.js";
 import Newscontent from "./Components/Newscontetnt/Newscontent.js";
-//import apiKey from "./data/config.js";
+import apiKey from "./data/config.js";
 function App() {
   const [category, setCategory] = useState("general");
   const [newsArray, setNewsArray] = useState([]);
@@ -16,8 +16,8 @@ function App() {
     //const proxyUrl = "https://cors-anywhere.herokuapp.com/";
     try {
       const news = await axios.get(
-         `https://saurav.tech/NewsAPI/top-headlines/category/${category}/in.json`
-       // `https://newsapi.org/v2/top-headlines?country=in&apiKey=${apiKey}&pageSize=${loadMore}&category=${category}`
+        // `https://saurav.tech/NewsAPI/top-headlines/category/${category}/in.json`
+        `https://newsapi.org/v2/top-headlines?country=in&apiKey=${apiKey}&pageSize=${loadMore}&category=${category}`
       );
      
      setNewsArray(news.data.articles);
