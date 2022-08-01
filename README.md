@@ -14,7 +14,7 @@ We understand you don’t have time ⏰ to go through long news articles everyda
 
 ## Important Note 
 For some reason, News API only works on mozilla browsers in free plan other than that - News api doesn't allow you to fetch the api from a deployed site. You can fork this repo and run in your local server and add your apikey in config.js file in the root.
-deeply sorry for the inconvenience 😢
+deeply sorry for the inconvenience as API is a paid one😢
 
 ## Contributing guidelines
 
